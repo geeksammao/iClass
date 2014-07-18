@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iClass</string>
+    <string name="student_login">学生登录</string>
+    <string name="teacher_login">老师登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="noclass">你当前没有课程</string>
+    <string name="class_for_you">可选课程</string>
+    <string name="query_hint">输入课程名</string>
+    <string name="add_class_bar">添加课程</string>
+</resources>

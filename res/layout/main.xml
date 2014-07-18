@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="horizontal"
+              android:background="#ffffff"
+        >
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/student_login"
+            android:id="@+id/student_login"
+            android:layout_marginLeft="35dp"
+            android:layout_gravity="center_vertical"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teacher_login"
+            android:id="@+id/teacher_login"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="80dp"
+            />
+</LinearLayout>
+
