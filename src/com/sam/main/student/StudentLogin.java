@@ -41,7 +41,9 @@ public class StudentLogin extends Activity {
 
                 if ((userName.equals(ID_A) && passWord.equals(PASS_A)) || (userName.equals(ID_B) && passWord.equals(PASS_B)) || (userName.equals(ID_C) && passWord.equals(PASS_C))) {
                     Intent intent = new Intent(StudentLogin.this, ClassOverview.class);
+                    intent.putExtra("StuID",userName); // 传递用户名给下一个Activity,作为创建数据库的标志
                     startActivity(intent);
+                    finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "用户名或密码错误", Toast.LENGTH_SHORT).show();
                 }

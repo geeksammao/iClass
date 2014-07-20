@@ -2,9 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.sam"
           android:versionCode="1"
-          android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="19"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+          android:versionName="2.0">
+    <uses-sdk
+            android:minSdkVersion="11"
+            android:targetSdkVersion="19"/>
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher"
+            android:name=".main.application.MyApplication">
         <activity android:name=".main.main.MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -17,5 +22,8 @@
         <activity android:name=".main.student.ClassOverview"/>
         <activity android:name=".main.teacher.ClassOpen"/>
         <activity android:name=".main.student.SelectClass"/>
+        <activity android:name=".main.student.ClassDetail"/>
+        <activity android:name=".main.main.LoginActivity"/>
+        <activity android:name=".main.student.ClassDelete"/>
     </application>
 </manifest>

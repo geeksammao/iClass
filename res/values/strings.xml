@@ -10,4 +10,9 @@
     <string name="class_for_you">可选课程</string>
     <string name="query_hint">输入课程名</string>
     <string name="add_class_bar">添加课程</string>
+    <string name="hello_world">Hello World</string>
+    <string name="add_class">加入课程</string>
+    <string name="class_place">教室：N209</string>
+    <string name="classroom">教室：N209</string>
+    <string name="delete">删除课程</string>
 </resources>

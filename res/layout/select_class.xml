@@ -8,11 +8,11 @@
         >
     <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:background="#ffbababa">
         <SearchView
                 android:layout_width="250dp"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:id="@+id/search_view"
                 android:background="#ffffff"
                 android:queryHint="@string/query_hint"
@@ -39,6 +39,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/search_list"
-                android:divider="#ff3d3d3d"/>
+                android:divider="#ffbababa"
+                android:dividerHeight="0.5dp"
+                android:headerDividersEnabled="true"/>
     </LinearLayout>
 </LinearLayout>
